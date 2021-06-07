@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/dbname
+    username: dbtestuser
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    enabled: true
+
+encryption:
+  mode: test
+  masterKey: D021A5E331A090C4F09BEF3F0ED69E70
+

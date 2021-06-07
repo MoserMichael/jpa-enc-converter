@@ -1,0 +1,17 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_USER: dbtestuser
+      POSTGRES_DB: dbname
+ 
+volumes:
+  esdata1:
+    driver: local
+
+
+

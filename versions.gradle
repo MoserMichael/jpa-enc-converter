@@ -1,0 +1,15 @@
+ext {
+    ver = [:]
+}
+
+ver = [
+             grpcspringbootstarter  : '4.5.3',
+             spring                 : '2.4.2', //2.3.4.RELEASE',
+             postgresql             : '42.2.18',
+             lombok                 : '1.18.16',
+             kms                    : '1.11.529',
+             liquibase              : '3.10.3'
+
+    ]
+    
+
