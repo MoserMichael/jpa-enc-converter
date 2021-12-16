@@ -23,6 +23,6 @@ This example does the following:
 
 A unit test puts the test checks the test mode. Here you need to start the postgress docker instance by means of ```docker-compose up -d``` , then run the tests as part of ```gradle build```
 
-Note that you also have a psql.sh script, this connects to the test db hosted by the docker instance.
+Note that you also have a psql.sh script, this runs ```pql``` and connects it to the test db hosted by the docker instance.
 
 
